@@ -1,12 +1,16 @@
+import React from "react"
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+/*
+Challenge: Build the Hero component.
+Check the Figma file for the design specifics.
+*/
 
-import Footer from "./components/Footer"
-import Main from "./components/Main"
-
-export default function App () {
+export default function App() {
     return (
-        <>
-            <Main />
-            <Footer />
-        </>
+        <div>
+            <Navbar />
+            <Hero />
+        </div>
     )
 }
