@@ -34,3 +34,37 @@ nav {
 .img {
     max-width: 100%;
 }
+
+.card {
+    width: 30%;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+p {
+    margin: 0;
+    
+}
+
+.flex {
+    display:flex;
+}
+
+.rating {
+    place-items: center;
+    gap: .3rem;
+    
+}
+
+.img-card {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.img-star{
+   justify-self: center;
+   width: 10%;
+   
+}
